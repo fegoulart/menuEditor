@@ -9,12 +9,22 @@
 /* Begin PBXBuildFile section */
 		0ABC3F34297FCE40798571FA /* Pods_menuEditorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B97474972B9873B89D020A26 /* Pods_menuEditorUITests.framework */; };
 		5673AEFE20DFD7CE005AAD22 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AEFD20DFD7CE005AAD22 /* AppDelegate.swift */; };
-		5673AF0020DFD7CE005AAD22 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AEFF20DFD7CE005AAD22 /* ViewController.swift */; };
 		5673AF0320DFD7CE005AAD22 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5673AF0120DFD7CE005AAD22 /* Main.storyboard */; };
 		5673AF0520DFD7CF005AAD22 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5673AF0420DFD7CF005AAD22 /* Assets.xcassets */; };
 		5673AF0820DFD7CF005AAD22 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5673AF0620DFD7CF005AAD22 /* LaunchScreen.storyboard */; };
 		5673AF1320DFD7CF005AAD22 /* menuEditorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF1220DFD7CF005AAD22 /* menuEditorTests.swift */; };
 		5673AF1E20DFD7CF005AAD22 /* menuEditorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF1D20DFD7CF005AAD22 /* menuEditorUITests.swift */; };
+		5673AF2E20DFDBF0005AAD22 /* menuEditorGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF2C20DFDBF0005AAD22 /* menuEditorGlobal.swift */; };
+		5673AF2F20DFDBF0005AAD22 /* DownloadImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF2D20DFDBF0005AAD22 /* DownloadImage.swift */; };
+		5673AF3820DFDC00005AAD22 /* intExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3120DFDC00005AAD22 /* intExtension.swift */; };
+		5673AF3920DFDC00005AAD22 /* uiViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3220DFDC00005AAD22 /* uiViewControllerExtension.swift */; };
+		5673AF3A20DFDC00005AAD22 /* uiViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3320DFDC00005AAD22 /* uiViewExtension.swift */; };
+		5673AF3B20DFDC00005AAD22 /* stringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3420DFDC00005AAD22 /* stringExtension.swift */; };
+		5673AF3C20DFDC00005AAD22 /* uiImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3520DFDC00005AAD22 /* uiImageExtension.swift */; };
+		5673AF3D20DFDC00005AAD22 /* doubleExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3620DFDC00005AAD22 /* doubleExtension.swift */; };
+		5673AF3E20DFDC00005AAD22 /* dateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3720DFDC00005AAD22 /* dateExtension.swift */; };
+		5673AF4020DFDDB4005AAD22 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF3F20DFDDB4005AAD22 /* LoginViewController.swift */; };
+		5673AF7E20DFED48005AAD22 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5673AF7D20DFED48005AAD22 /* MainViewController.swift */; };
 		AFE1D0ECFA8348C594A69A1F /* Pods_menuEditor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A400D15ACEE63BBB63A416 /* Pods_menuEditor.framework */; };
 		C76198DDEE78E0656829C311 /* Pods_menuEditorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D0EBF579566DE6A48E1D6F60 /* Pods_menuEditorTests.framework */; };
 /* End PBXBuildFile section */
@@ -41,7 +51,6 @@
 		2AC1D691DA666941D6055875 /* Pods-menuEditor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menuEditor.release.xcconfig"; path = "Pods/Target Support Files/Pods-menuEditor/Pods-menuEditor.release.xcconfig"; sourceTree = "<group>"; };
 		5673AEFA20DFD7CE005AAD22 /* menuEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = menuEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5673AEFD20DFD7CE005AAD22 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5673AEFF20DFD7CE005AAD22 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5673AF0220DFD7CE005AAD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5673AF0420DFD7CF005AAD22 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5673AF0720DFD7CF005AAD22 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +61,17 @@
 		5673AF1920DFD7CF005AAD22 /* menuEditorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = menuEditorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5673AF1D20DFD7CF005AAD22 /* menuEditorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = menuEditorUITests.swift; sourceTree = "<group>"; };
 		5673AF1F20DFD7CF005AAD22 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5673AF2C20DFDBF0005AAD22 /* menuEditorGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = menuEditorGlobal.swift; sourceTree = "<group>"; };
+		5673AF2D20DFDBF0005AAD22 /* DownloadImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DownloadImage.swift; sourceTree = "<group>"; };
+		5673AF3120DFDC00005AAD22 /* intExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = intExtension.swift; sourceTree = "<group>"; };
+		5673AF3220DFDC00005AAD22 /* uiViewControllerExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiViewControllerExtension.swift; sourceTree = "<group>"; };
+		5673AF3320DFDC00005AAD22 /* uiViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiViewExtension.swift; sourceTree = "<group>"; };
+		5673AF3420DFDC00005AAD22 /* stringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = stringExtension.swift; sourceTree = "<group>"; };
+		5673AF3520DFDC00005AAD22 /* uiImageExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = uiImageExtension.swift; sourceTree = "<group>"; };
+		5673AF3620DFDC00005AAD22 /* doubleExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = doubleExtension.swift; sourceTree = "<group>"; };
+		5673AF3720DFDC00005AAD22 /* dateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dateExtension.swift; sourceTree = "<group>"; };
+		5673AF3F20DFDDB4005AAD22 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		5673AF7D20DFED48005AAD22 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		585AD7E0490F08E31A647B8A /* Pods-menuEditor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menuEditor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-menuEditor/Pods-menuEditor.debug.xcconfig"; sourceTree = "<group>"; };
 		58BB69004DEA0D3354A8F925 /* Pods-menuEditorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menuEditorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-menuEditorUITests/Pods-menuEditorUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		5C498ED6BDEBFF9FE55D4337 /* Pods-menuEditorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-menuEditorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-menuEditorUITests/Pods-menuEditorUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -114,8 +134,10 @@
 		5673AEFC20DFD7CE005AAD22 /* menuEditor */ = {
 			isa = PBXGroup;
 			children = (
+				5673AF4120DFDDB9005AAD22 /* controllers */,
+				5673AF3020DFDC00005AAD22 /* extensions */,
+				5673AF2B20DFDBF0005AAD22 /* helper */,
 				5673AEFD20DFD7CE005AAD22 /* AppDelegate.swift */,
-				5673AEFF20DFD7CE005AAD22 /* ViewController.swift */,
 				5673AF0120DFD7CE005AAD22 /* Main.storyboard */,
 				5673AF0420DFD7CF005AAD22 /* Assets.xcassets */,
 				5673AF0620DFD7CF005AAD22 /* LaunchScreen.storyboard */,
@@ -140,6 +162,38 @@
 				5673AF1F20DFD7CF005AAD22 /* Info.plist */,
 			);
 			path = menuEditorUITests;
+			sourceTree = "<group>";
+		};
+		5673AF2B20DFDBF0005AAD22 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				5673AF2C20DFDBF0005AAD22 /* menuEditorGlobal.swift */,
+				5673AF2D20DFDBF0005AAD22 /* DownloadImage.swift */,
+			);
+			path = helper;
+			sourceTree = SOURCE_ROOT;
+		};
+		5673AF3020DFDC00005AAD22 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				5673AF3120DFDC00005AAD22 /* intExtension.swift */,
+				5673AF3220DFDC00005AAD22 /* uiViewControllerExtension.swift */,
+				5673AF3320DFDC00005AAD22 /* uiViewExtension.swift */,
+				5673AF3420DFDC00005AAD22 /* stringExtension.swift */,
+				5673AF3520DFDC00005AAD22 /* uiImageExtension.swift */,
+				5673AF3620DFDC00005AAD22 /* doubleExtension.swift */,
+				5673AF3720DFDC00005AAD22 /* dateExtension.swift */,
+			);
+			path = extensions;
+			sourceTree = SOURCE_ROOT;
+		};
+		5673AF4120DFDDB9005AAD22 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5673AF3F20DFDDB4005AAD22 /* LoginViewController.swift */,
+				5673AF7D20DFED48005AAD22 /* MainViewController.swift */,
+			);
+			path = controllers;
 			sourceTree = "<group>";
 		};
 		8C55ED5BB2BC96747DD0C3BB /* Frameworks */ = {
@@ -322,21 +376,21 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-menuEditor/Pods-menuEditor-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
-				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -406,8 +460,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5673AF0020DFD7CE005AAD22 /* ViewController.swift in Sources */,
+				5673AF4020DFDDB4005AAD22 /* LoginViewController.swift in Sources */,
+				5673AF3A20DFDC00005AAD22 /* uiViewExtension.swift in Sources */,
+				5673AF3E20DFDC00005AAD22 /* dateExtension.swift in Sources */,
+				5673AF7E20DFED48005AAD22 /* MainViewController.swift in Sources */,
+				5673AF3920DFDC00005AAD22 /* uiViewControllerExtension.swift in Sources */,
+				5673AF3D20DFDC00005AAD22 /* doubleExtension.swift in Sources */,
+				5673AF2E20DFDBF0005AAD22 /* menuEditorGlobal.swift in Sources */,
+				5673AF2F20DFDBF0005AAD22 /* DownloadImage.swift in Sources */,
+				5673AF3B20DFDC00005AAD22 /* stringExtension.swift in Sources */,
+				5673AF3820DFDC00005AAD22 /* intExtension.swift in Sources */,
 				5673AEFE20DFD7CE005AAD22 /* AppDelegate.swift in Sources */,
+				5673AF3C20DFDC00005AAD22 /* uiImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
