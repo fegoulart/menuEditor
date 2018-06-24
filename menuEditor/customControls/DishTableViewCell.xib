@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="KGk-i7-Jjw" customClass="DishTableViewCell" customModule="menuEditor" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="95"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="94.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delicious Chocolate Cake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IkR-iA-1Pg">
+                        <rect key="frame" x="10" y="37" width="144.5" height="15"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="$" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qho-mT-qg7">
+                        <rect key="frame" x="10" y="63" width="11" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" red="0.90196078430000004" green="0.1019607843" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="15.00" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="k7s-lm-3zD">
+                        <rect key="frame" x="29" y="65" width="36" height="17"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                        <color key="textColor" red="0.90196078430000004" green="0.1019607843" blue="0.2156862745" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fT6-VW-U0u">
+                        <rect key="frame" x="230" y="22.5" width="50" height="50"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="50" id="FHd-SZ-4bp"/>
+                            <constraint firstAttribute="width" constant="50" id="ifo-iA-DR7"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Edit Dish" translatesAutoresizingMaskIntoConstraints="NO" id="jfP-rA-VYb">
+                        <rect key="frame" x="290" y="10" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="837-b8-U0b"/>
+                            <constraint firstAttribute="height" constant="20" id="AUU-41-NL0"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="trash" translatesAutoresizingMaskIntoConstraints="NO" id="h9u-q1-liD">
+                        <rect key="frame" x="290" y="64.5" width="20" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="20" id="Il9-fU-RTf"/>
+                            <constraint firstAttribute="height" constant="20" id="SyW-bJ-NjV"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocolate Cake" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XSr-XU-MDB">
+                        <rect key="frame" x="10" y="10" width="144.5" height="18"/>
+                        <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                        <color key="textColor" red="0.94901960780000005" green="0.25882352939999997" blue="0.35294117650000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="XSr-XU-MDB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="6xY-No-zgd"/>
+                    <constraint firstItem="XSr-XU-MDB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="89B-MF-3wN"/>
+                    <constraint firstItem="fT6-VW-U0u" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="EbH-yE-Dmg"/>
+                    <constraint firstItem="jfP-rA-VYb" firstAttribute="leading" secondItem="fT6-VW-U0u" secondAttribute="trailing" constant="10" id="LbZ-bh-Byq"/>
+                    <constraint firstAttribute="bottom" secondItem="h9u-q1-liD" secondAttribute="bottom" constant="10" id="SMM-C4-VLJ"/>
+                    <constraint firstItem="jfP-rA-VYb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="WXw-7i-iV9"/>
+                    <constraint firstItem="IkR-iA-1Pg" firstAttribute="top" secondItem="XSr-XU-MDB" secondAttribute="bottom" constant="9" id="bNa-sh-qsY"/>
+                    <constraint firstItem="k7s-lm-3zD" firstAttribute="leading" secondItem="Qho-mT-qg7" secondAttribute="trailing" constant="8" id="be7-6x-vFj"/>
+                    <constraint firstItem="Qho-mT-qg7" firstAttribute="top" secondItem="IkR-iA-1Pg" secondAttribute="bottom" constant="11" id="cNl-Pf-3fw"/>
+                    <constraint firstAttribute="trailing" secondItem="jfP-rA-VYb" secondAttribute="trailing" constant="10" id="iv3-pr-1xd"/>
+                    <constraint firstItem="k7s-lm-3zD" firstAttribute="centerY" secondItem="Qho-mT-qg7" secondAttribute="centerY" id="kfh-hA-jsq"/>
+                    <constraint firstItem="IkR-iA-1Pg" firstAttribute="trailing" secondItem="XSr-XU-MDB" secondAttribute="trailing" id="kpj-hw-5bH"/>
+                    <constraint firstItem="Qho-mT-qg7" firstAttribute="leading" secondItem="IkR-iA-1Pg" secondAttribute="leading" id="oXZ-6U-1uQ"/>
+                    <constraint firstItem="fT6-VW-U0u" firstAttribute="leading" secondItem="XSr-XU-MDB" secondAttribute="trailing" priority="250" id="ofF-4r-J1g"/>
+                    <constraint firstItem="IkR-iA-1Pg" firstAttribute="leading" secondItem="XSr-XU-MDB" secondAttribute="leading" id="pm1-Iq-dEK"/>
+                    <constraint firstAttribute="trailing" secondItem="h9u-q1-liD" secondAttribute="trailing" constant="10" id="rcP-2V-gjk"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dishDescriptionUiLabel" destination="IkR-iA-1Pg" id="ela-zM-lbu"/>
+                <outlet property="dishImageView" destination="fT6-VW-U0u" id="SdQ-tx-Gbv"/>
+                <outlet property="dishNameUILabel" destination="XSr-XU-MDB" id="TvL-Gn-NBk"/>
+                <outlet property="dishPriceUILabel" destination="k7s-lm-3zD" id="6gY-dx-FVa"/>
+                <outlet property="editIconUIImageView" destination="jfP-rA-VYb" id="S2s-yA-96K"/>
+                <outlet property="trashIconUIImageView" destination="h9u-q1-liD" id="GHw-bf-bQS"/>
+            </connections>
+            <point key="canvasLocation" x="34" y="53.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="Edit Dish" width="128" height="128"/>
+        <image name="trash" width="128" height="128"/>
+    </resources>
+</document>
